@@ -30,8 +30,3 @@ The following tables lists the configurable parameters of the chart and their de
 | `redis.slaveEnabled`       | Redis slave enabled                             | `true`                                                     |
 | `redis.port`               | Redis port                                      | `6379`                                                     |
 
-Specify each parameter using the `--set [key=value]` argument to `helm install`. For example,
-
-```bash
-$ helm install my-repo/guestbook --set service.type=NodePort
-```
