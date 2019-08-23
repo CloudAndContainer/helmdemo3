@@ -5,8 +5,8 @@
 replicaCount: 2
 
 image:
-  repository: ibmcom/guestbook
-  tag: v1
+  repository: cloudandcontainer/helmguestbook
+  tag: latest
   pullPolicy: Always
 
 # For some dev env (like minikube), you may need to set the type to NodePort
