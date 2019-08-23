@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: guestbook
-        image: ibmcom/guestbook:v1
+        image: cloudandcontainer/helmguestbook:latest
         ports:
         - name: http-server
           containerPort: 3000
